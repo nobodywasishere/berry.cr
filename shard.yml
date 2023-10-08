@@ -1,0 +1,12 @@
+name: berry
+version: 1.1.0
+
+authors:
+  - Margret Riegert <margret@eowyn.net>
+
+crystal: ~> 1.9
+
+license: MIT
+
+scripts:
+  postinstall: ./src/ext/generate.sh

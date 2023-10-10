@@ -5,7 +5,7 @@ lib LibBerry
     marked : BByte
   end
 
-  type BInstruction = UInt32
+  alias BInstruction = UInt32
 
   struct BString
     nxt : BGCObject*

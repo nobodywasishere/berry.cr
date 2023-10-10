@@ -1,8 +1,8 @@
 lib LibBerry
-  type BByte = UInt8
-  type BInt = LibC::LongLong
-  type BReal = LibC::Double
-  type BBool = Bool
+  alias BByte = UInt8
+  alias BInt = LibC::LongLong
+  alias BReal = LibC::Double
+  alias BBool = Bool
   alias BNtvFunc = Proc(BVM*, LibC::Int)
 
   struct BNFuncInfo

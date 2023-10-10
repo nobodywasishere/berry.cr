@@ -8,6 +8,10 @@ git clone https://github.com/berry-lang/berry || echo
 
 cd berry
 
-make
+rm default/*
 
-ar rvs ../berry.a src/*.o
+cp ../default/* default
+
+make clean berry
+
+ar rvs ../berry.a src/*.o default/*.o

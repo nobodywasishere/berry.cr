@@ -1,7 +1,7 @@
 lib LibBerry
   alias BPFunc = Proc(BVM*, Void*, Void)
 
-  type BJmpBuf = StaticArray(UInt32, 1)
+  alias BJmpBuf = StaticArray(UInt32, 1)
 
   struct BLongJmp
     b : BJmpBuf
